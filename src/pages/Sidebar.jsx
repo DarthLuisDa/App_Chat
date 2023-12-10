@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 
-import { Avatar } from "@material-ui/core";
-import { ExpandMore, Add, Mic, Settings, Headset } from "@material-ui/icons";
+/* import { Avatar } from "@material-ui/core";  */      /*  no se pudieron instalar */
+/* import { ExpandMore, Add, Mic, Settings, Headset } from "@material-ui/icons";  */     /*  no se pudieron instalar */
 
-import CanalEnSidebar from "../../App_Chat/src/components/CanalEnSidebar";
+import CanalEnSidebar from "/src/components/CanalEnSidebar";
 
-import firebaseApp from "../firebase/credenciales";
+import firebaseApp from "/src/firebase/credenciales";
 import {
   getFirestore,
   collection,

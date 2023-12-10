@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-import { AddCircle, CreditCard, Gif, EmojiEmotions } from "@material-ui/icons";
+/* import { AddCircle, CreditCard, Gif, EmojiEmotions } from "@material-ui/icons"; */
 import EncabezadoChat from "../components/EncabezadoChat";
 import Mensaje from "../components/Mensaje";
 

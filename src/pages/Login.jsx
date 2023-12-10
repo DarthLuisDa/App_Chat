@@ -1,7 +1,7 @@
 import React from "react";
-import { Button } from "@material-ui/core";
+/* import { Button } from "@material-ui/core"; */
 
-import firebaseApp from "../firebase/credenciales";
+import firebaseApp from "/src/firebase/credenciales";
 import { getAuth, GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
 const auth = getAuth(firebaseApp);
 const gProvider = new GoogleAuthProvider();

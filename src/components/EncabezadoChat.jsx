@@ -1,13 +1,13 @@
 import React from "react";
 
-import {
+/* import {
   Notifications,
   Room,
   PeopleAlt,
   Search,
   Send,
   Help,
-} from "@material-ui/icons";
+} from "@material-ui/icons"; */
 
 function EncabezadoChat({ nombreCanal }) {
   return (

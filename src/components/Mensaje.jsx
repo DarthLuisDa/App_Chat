@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Avatar } from "@material-ui/core";
+/* import { Avatar } from "@material-ui/core"; */
 
 function Mensaje({ mensajeFirebase }) {
   return (
